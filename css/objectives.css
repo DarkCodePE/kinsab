@@ -1,0 +1,22 @@
+.objectives__container{
+    display: grid;
+    grid-auto-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+.objectives__items{
+    display: grid;
+    align-items: center;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+.objectives__items_details{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.objectives__items_details p{
+    font-size: 12px;
+}
