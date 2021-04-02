@@ -1,0 +1,15 @@
+.alliance_container{
+    display: grid;
+    gap: 1em;
+}
+.alliance_container h3{
+    color: #ECBF34;
+    font-size: 34px;
+    text-align: center;
+}
+.alliance_items{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: center;
+}

@@ -1,6 +1,21 @@
+:root {
+  --dark-blue: hsl(240, 38%, 20%);
+  --grayish-blue: #A7A4A4;
+  --dark-grayish-blue: #8585ac;
+  --box-shadow-1: 0 4rem 5rem -3rem rgba(36, 36, 113, 0.5);
+  --box-shadow-2: 0 1.5rem 2rem -1rem rgba(36, 36, 113, 0.1);
+}
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* || Typography */
 @font-face {
@@ -22,6 +37,13 @@
     src: url("../assets/font/Montserrat/MontserratAlternates-SemiBold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratAlternates-Medium";
+  src: url("../assets/font/Montserrat/MontserratAlternates-Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
@@ -61,7 +83,7 @@ body {
     text-align: left;
     color: #000000;
     opacity: 0.9;
-    background-color: #E5E5E5;
+    background-color: #fcfcfc;
 } 
 
 h1, h4 {
@@ -73,7 +95,7 @@ h1, h4 {
     word-break: break-all;
 } 
 
-h2, h3, h5, h6 {
+h2, h3, h5, h6, button {
     font-family: "MontserratAlternates-Bold", sans-serif;
     /* letter-spacing: 1px; */
     font-weight: 600; 
@@ -138,7 +160,7 @@ img{
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  gap: 2em;
+  gap: 3.5em;
 }
 /* || MENU */
 nav{
@@ -173,7 +195,9 @@ nav{
   background: white;
   cursor: pointer;
 }
-
+.ham span{
+  font-weight: 600;
+}
 .xIcon {
   display: none;
 }
@@ -191,8 +215,13 @@ nav{
   transform: translateY(-100%);
   transition: transform 0.2s;
   list-style: none;
-  padding-top: 4rem;
+  padding: 6em 2em;
   margin: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+  background: rgba(238, 197 , 72, 0.9);
 }
 
 .showMenu {
@@ -202,14 +231,57 @@ nav{
 li {
   padding: 1rem 0;
 }
-
+nav{
+  z-index: 99999;
+}
 .menuLink {
   display: inline;
-  font-size: 2rem;
-  color: white;
+  font-size: 1.8rem;
+  color: #000;
   text-decoration: none;
+  font-family: "Poppins-Bold";
 }
 
 .menuLink:hover {
   text-decoration: underline;
+}
+
+.flex__container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2E2C2C;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 2em;
+  padding: 1em;
+}
+footer figure{
+  justify-self: flex-start;
+}
+footer figure .logo_light{
+  width: 95px;
+}
+footer .social{
+  width: 40px;
+  justify-self: center;
+}
+footer button{
+  background: #9C1C25;
+  color: #fff;
+  padding: 1em 1em;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+footer input{
+  padding: 1em .5em;
+  border-radius: 10px;
+  width: 200px;
 }

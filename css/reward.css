@@ -1,0 +1,44 @@
+.reward__container{
+    display: grid;
+    gap: 1.5em;
+}
+.reward__message figure{
+    width: 80px;
+}
+.reward__message p{
+    width: 82%;
+    color: #ECBF34;
+    font-family: "MontserratAlternates-medium";
+    font-size: 26px;
+}
+.reward__title{
+    display: flex;
+    justify-content: flex-end;
+}
+.reward__title h2{
+    width: 62%;
+    color: #ECBF34;
+}
+.reward__item{
+    display: grid;
+    gap: 1em;
+}
+.reward__item figure{
+    width: 242px;
+    margin: 0 auto;
+}
+.reward__item h3{
+    font-family: "MontserratAlternates-medium", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.reward__item button{
+    background: #ECBF34;
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+}

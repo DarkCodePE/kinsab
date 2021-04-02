@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kinsab</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/objectives.css">
     <link rel="stylesheet" href="./css/workflow.css">
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="./css/instructions.css">
+    <link rel="stylesheet" href="./css/reward.css">
+    <link rel="stylesheet" href="./css/alliance.css">
 </head>
 <body>
     <div class="wrap__container">
@@ -30,16 +35,17 @@
                 </span>
               </button>
               <ul class="menu">
-                <li><a class="menuLink" href="#">Home</a></li>
-                <li><a class="menuLink" href="#">Profile</a></li>
-                <li><a class="menuLink" href="#">About</a></li>
-                <li><a class="menuLink" href="#">Contacts</a></li>
+                <li><a class="menuLink" href="#home">Home</a></li>
+                <li><a class="menuLink" href="#objective">Sobre el evento</a></li>
+                <li><a class="menuLink" href="#workflow">Mecánica del evento</a></li>
+                <li><a class="menuLink" href="#instruction">Conoce las Reglas</a></li>
+                <li><a class="menuLink" href="#reward">¿Quieres apoyar el evento?</a></li>
               </ul>
               
             </div>
           </div>
       </nav>
-      <div class="home__container">
+      <div class="home__container" id="home">
         <h5 class="home__subtitle">
           Bueno Bonito Barato
         </h5>
@@ -56,7 +62,7 @@
           <img src="./assets/img/team.png" alt="team">
         </figure>
       </div>
-      <div class="objectives__container">
+      <div class="objectives__container" id="objective">
   
         <div class="objectives__items">
           <figure class="objectives__items_iamge">
@@ -88,7 +94,7 @@
           </div>
         </div>
       </div>
-      <div class="workflow__container">
+      <div class="workflow__container" id="workflow">
         <h4>¿Qué te ofrecemos?</h4>
         <div class="workflow__items_container">
           <div class="workflow__items">
@@ -166,8 +172,209 @@
                 </div>
             </div>
           </div>
+          <div class="workflow__items">
+            <h3 class="workflow__black">Si deseas ser parte como jurado, dale al botón</h3>
+            <div class="workflow__button_container">
+                <button>Quiero ser jurado</button>
+            </div>
+            <div class="workflow__items_jury_container flex__container">
+               <div class="workflow__items_jury_details flex__container">
+                  <h3>Vitrina</h3>
+                  <div class="workflow__jury_details">
+                    <p>Tengas el espacio donde puedan observar tu propuesta y puedas ...</p>
+                  </div>
+               </div>
+               <div class="workflow__items_jury_body">
+                <div class="workflow__items_jury">
+                  <h6>Ser financiado</h6>
+                  <figure>
+                    <img src="./assets/img/financiador.png" alt="">
+                  </figure>
+                </div>
+                <div class="workflow__items_jury">
+                  <h6>Conseguir alianzas</h6>
+                  <figure>
+                    <img src="./assets/img/alianzas.png" alt="">
+                  </figure>
+                </div>
+                <div class="workflow__items_jury">
+                  <h6>Contactos</h6>
+                  <figure>
+                    <img src="./assets/img/incubador.png" alt="">
+                  </figure>
+                </div>
+                <div class="workflow__items_jury">
+                  <h6>Proyectos Kinsa-B</h6>
+                  <figure>
+                    <img src="./assets/img/proyecto.png" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="testimonials__container" id="testimonial">
+        <h5>Testimonios</h5>
+        <h2>Qué dicen de nosotros</h2>
+        <div class="testimonials__body">
+          <section class="section-testimonials">
+            <div class="slider">
+              <div class="slider__slides">
+                <div class="slider__slide slider__slide--1">
+                  <figure class="testimonial slider__slide-content">
+                    <blockquote class="testimonial__text">
+                      <img class="testimonial__quotation-marks" src="./assets/img/quote2.png" alt="quotation marks">
+                      <p class="testimonial__quote">
+                        “ La confianza que me brindaron, me hicieron tomar la decisión de que si quería empezar desde 0 como emprendedor, junto a KinsaB lo iba a hacer bien, porque ya tienen ese mindset. ”
+                      </p>
+                      <cite class="testimonial__cite">
+                        <span class="testimonial__cite--name">David Alvarado </span>
+                        <span class="testimonial__cite--role">Ingeniero Industrial</span>
+                      </cite>
+                    </blockquote>
+                    <div class="testimonial__img">
+                      <img class="testimonial__photo" src="./assets/img/testiminio1.png" alt="Tanya Sinclair">
+                    </div>
+                  </figure>
+                </div>
+        
+                <div class="slider__slide slider__slide--2">
+                  <figure class="testimonial slider__slide-content">
+                    <blockquote class="testimonial__text">
+                      <img class="testimonial__quotation-marks" src="./assets/img/quote2.png" alt="quotation marks">
+                      <p class="testimonial__quote">
+                        “ La confianza que me brindaron, me hicieron tomar la decisión de que si quería empezar desde 0 como emprendedor, junto a KinsaB lo iba a hacer bien, porque ya tienen ese mindset. ”
+                      </p>
+                      <cite class="testimonial__cite">
+                        <span class="testimonial__cite--name">David Alvarado </span>
+                        <span class="testimonial__cite--role">Ingeniero Industrial</span>
+                      </cite>
+                    </blockquote>
+                    <div class="testimonial__img">
+                      <img class="testimonial__photo" src="./assets/img/testiminio1.png" alt="John Tarkpor">
+                    </div>
+                  </figure>
+                </div>
+              </div>
+        
+              <div class="slider__buttons">
+                <div class="slider__button slider__button--prev">
+                  <svg class="slider__button-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="18">
+                    <path fill="none" stroke-width="3" d="M11 1L3 9l8 8" /></svg>
+                </div>
+                <div class="slider__button slider__button--next">
+                  <svg class="slider__button-icon" xmlns="http://www.w3.org/2000/svg" width="13" height="18">
+                    <path fill="none" stroke-width="3" d="M2 1l8 8-8 8" /></svg>
+                </div>
+              </div>
+            </div>
+        
+          </section>
+        </div>
+      </div> 
+      <div class="instructions_container" id="instruction">
+        <div class="instructions_header">
+          <p class="instructions_counter">
+            5
+          </p>
+          <p class="instructions_title">
+            Para esta convocatoria se aceptaran o formaran sólo 5 equipo
+          </p>
+        </div>
+        <div class="instructions_body">
+          <p class="instructions_body_title">
+            Por persona
+          </p>
+          <div class="instructions_body_items">
+            <div class="instructions_body_item">
+              <p class="instructions_body_item_title">Planteamiento de Problema</p>
+              <div class="instructions_body_item_details">
+                <span>20 so</span>
+                <span>1 semana</span>
+              </div>
+            </div>
+            <div class="instructions_body_item">
+              <p class="instructions_body_item_title">Planteamiento de Solución</p>
+              <div class="instructions_body_item_details">
+                <span>20 so</span>
+                <span>1 semana</span>
+              </div>
+            </div>
+            <div class="instructions_body_item">
+              <p class="instructions_body_item_title">Planteamiento de Modelo de Negocio</p>
+              <div class="instructions_body_item_details">
+                <span>20 so</span>
+                <span>1 semana</span>
+              </div>
+            </div>
+            <div class="instructions_body_item">
+              <p class="instructions_body_item_title">Branding</p>
+              <div class="instructions_body_item_details">
+                <span>20 so</span>
+                <span>1 semana</span>
+              </div>
+            </div>
+            <div class="instructions_body_item">
+              <p class="instructions_body_item_title">Pitch</p>
+              <div class="instructions_body_item_details">
+                <span>20 so</span>
+                <span>1 semana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reward__container" id="reward">
+        <figure>
+          <img src="./assets/img/happy.png" alt="happy">
+        </figure>
+        <div class="reward__message">
+          <figure>
+            <img src="./assets/img/quote2.png" alt="quote_reward">
+          </figure>
+          <p>Kinsab brinda el 30% de lo recaudado a la
+            mejor idea lograda.</p>
+        </div>
+        <div class="reward__title">
+          <h2>Para participar, puedes hacerlo</h2>
+        </div>
+        <div class="reward__item">
+          <figure>
+            <img src="./assets/img/find_team.png" alt="find_team">
+          </figure>
+          <h3>Encuentra tu equipo ideal</h3>
+          <button>Solo</button>
+        </div>
+        <div class="reward__item">
+          <figure>
+            <img src="./assets/img/no_find_team.png" alt="no_find_team">
+          </figure>
+          <h3>Con tus amigos máximo de 4</h3>
+          <button>Equipo</button>
+        </div>
+      </div>
+      <div class="alliance_container" id="alliance">
+        <h3>Alianzas</h3>
+        <div class="alliance_items">
+          <figure>
+            <img src="./assets/img/upc.png" alt="upc">
+          </figure>
+          <figure>
+            <img src="./assets/img/tecsup.png" alt="tecsup">
+          </figure> 
+        </div>
+      </div>
+      <footer >
+        <figure class="logo_light">
+          <img src="./assets/img/logo.png" alt="logo_footer">
+        </figure>
+        <figure class="social">
+          <img src="./assets/img/facebook.png" alt="facebook">
+        </figure>
+        <input type="text" placeholder="Ingresa tu correo">
+        <button>Register</button>
+      </footer>
     </div>
 
 <script src="./js/bundle.js"></script>    
