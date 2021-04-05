@@ -291,9 +291,9 @@
 }
 @media only screen and (max-width: 22.5em) {
     .testimonial__quotation-marks {
-        width: 4rem;
+        /* width: 4rem;
         height: auto;
-        top: -1rem;
+        top: -1rem; */
     }
 }
 .testimonial__quote {
@@ -325,8 +325,8 @@
 }
 @media only screen and (max-width: 22.5em) {
     .testimonial__quote {
-        font-size: 1.6rem;
-        margin-bottom: 1.5rem;
+        /* font-size: 1.6rem;
+        margin-bottom: 1.5rem; */
     }
 }
 .testimonial__cite {

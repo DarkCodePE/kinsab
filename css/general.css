@@ -160,7 +160,8 @@ img{
   width: 90vw;
   margin: 0 auto;
   display: grid;
-  gap: 3.5em;
+  gap: 2em;
+  grid-template-rows: repeat(7, min-content);
 }
 /* || MENU */
 nav{
@@ -259,8 +260,11 @@ footer{
   align-items: center;
   justify-content: center;
   justify-items: center;
-  gap: 2em;
+  gap: 1em;
   padding: 1em;
+}
+footer .logo_light{
+  width: 95px;
 }
 footer figure{
   justify-self: flex-start;
@@ -269,19 +273,19 @@ footer figure .logo_light{
   width: 95px;
 }
 footer .social{
-  width: 40px;
+  width: 23px;
   justify-self: center;
 }
 footer button{
   background: #9C1C25;
   color: #fff;
-  padding: 1em 1em;
+  padding: 1em;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 15px;
   margin: 0 auto;
 }
 footer input{
   padding: 1em .5em;
   border-radius: 10px;
-  width: 200px;
+  width: 50vw;
 }

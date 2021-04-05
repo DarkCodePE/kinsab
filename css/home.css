@@ -16,7 +16,7 @@
     grid-area: title;
   }
   .home__team{
-    width: 258px;
+    width: 220px;
     grid-area: team;
     margin: 0 auto;
   }
