@@ -263,6 +263,7 @@ nav{
 html:not([data-scroll='0']) .nav__container {
   background: rgba(37, 155, 204, 0.7);
   box-shadow: -3px 12px 10px 1px rgba(0,0,0,0.26);
+  z-index: 999999999;
 }
 html:not([data-scroll='0']) .main__menu_item {
   color: #fcfcfc;
