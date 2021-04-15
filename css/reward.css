@@ -42,3 +42,40 @@
     width: 50%;
     margin: 0 auto;
 }
+@media only screen and (min-width: 821px) {
+    .reward__container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .reward__container figure{
+        width: 42vw;
+    }
+    .reward__message figure {
+        width: 80px;
+        align-self: center;
+    }
+    .reward__message p {
+        width: 56%;
+    }
+    .reward__title{
+        grid-column: span 2;
+    }
+    .reward__title h2 {
+        width: 27%;
+        font-size: 48px;
+        font-family: 'MONTSERRATALTERNATES-SEMIBOLD';
+    }
+    .reward__message{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #reward > div:nth-child(4) > figure{
+        width: 466px;
+        height: 320px;
+    }
+    #reward > div:nth-child(5) > figure{
+        width: 466px;
+        height: 320px;
+    }
+}

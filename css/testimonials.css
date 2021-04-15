@@ -415,3 +415,19 @@
 .attribution a {
     color: #3e52a3;
 }
+@media only screen and (min-width: 821px) {
+    .section-testimonials {
+        height: 78vh;
+        padding: 0;
+    }
+    .testimonial__quote {
+        font-size: 1.2rem;
+    }
+    .slider__slide-content {
+        gap: 4em;
+    }
+    .testimonial__cite {
+        display: grid;
+        justify-content: center;
+    }
+}

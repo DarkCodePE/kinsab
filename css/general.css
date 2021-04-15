@@ -148,6 +148,10 @@ ul > li {
     list-style: none;
 }
 
+a{
+  text-align: center;
+}
+
 button{
     border: none;
     background: transparent;
@@ -338,6 +342,12 @@ footer input{
   .main__menu_item {
     font-size: 1.2rem;
   }
+  footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  footer .logo_light {
+    width: 140px;
+}
 }  
   
 /* Para 800px */  

@@ -70,3 +70,31 @@
 .instructions_body_item_details span{
     font-family: "MontserratAlternates-medium";
 }
+@media only screen and (min-width: 821px) {
+    .instructions_container {
+        justify-content: inherit;
+    }
+    .instructions_body_items {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    .instructions_body_item {
+        grid-template-columns: auto;
+    }
+    .instructions_counter {
+        font-size: 140px;
+        width: 220px;
+        height: 220px;
+    }
+    .instructions_title{
+        font-size: 29px;
+    }
+    .instructions_body_title{
+        font-size: 30px;
+    }
+    .instructions_body_item_title {
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
